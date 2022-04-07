@@ -1,0 +1,2 @@
+ackermansteer/ackermansteer/srsc/ackermansteer.cpp:232:48
+steer_ang_curr = steer_joints_[i]->GetAngle(X).Radian(); -> steer_ang_curr = steer_joints_[i]->Position(X);
