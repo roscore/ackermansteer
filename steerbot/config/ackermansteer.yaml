@@ -2,9 +2,9 @@ commandTopic: cmd_vel
 odometryTopic: odom
 odometryFrame: odom
 robotBaseFrame: base_footprint
-publishWheelTF: false
+publishWheelTF: true 
 publishOdomTF: true
-publishWheelJointState: false
+publishWheelJointState: true 
 wheelseparation: 0.30
 wheelDiameter: .10
 wheelAcceleration: 0.0
