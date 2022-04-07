@@ -1,2 +1,3 @@
-ackermansteer/ackermansteer/srsc/ackermansteer.cpp:232:48
-steer_ang_curr = steer_joints_[i]->GetAngle(X).Radian(); -> steer_ang_curr = steer_joints_[i]->Position(X);
+# for migration that Ubuntu 16.04 + ROS kinetic to Ubuntu 20.04 + ROS noetic
+# ackermansteer/ackermansteer/srsc/ackermansteer.cpp:232:48
+# steer_ang_curr = steer_joints_[i]->GetAngle(X).Radian(); -> steer_ang_curr = steer_joints_[i]->Position(X);
